@@ -22,4 +22,6 @@ while True:
 	lcd.message(s.getsockname()[0])
 	s.close()
 	time.sleep(5.0)
+	lcd.message('working')
+	time.sleep(5.0)
 	lcd.clear()
